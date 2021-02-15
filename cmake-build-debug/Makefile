@@ -952,6 +952,33 @@ JongManBook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.cpp.s
 .PHONY : 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.cpp.s
 
+26._트라이/트라이의_노드_구현.obj: 26._트라이/트라이의_노드_구현.cpp.obj
+
+.PHONY : 26._트라이/트라이의_노드_구현.obj
+
+# target to build an object file
+26._트라이/트라이의_노드_구현.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/26._트라이/트라이의_노드_구현.cpp.obj
+.PHONY : 26._트라이/트라이의_노드_구현.cpp.obj
+
+26._트라이/트라이의_노드_구현.i: 26._트라이/트라이의_노드_구현.cpp.i
+
+.PHONY : 26._트라이/트라이의_노드_구현.i
+
+# target to preprocess a source file
+26._트라이/트라이의_노드_구현.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/26._트라이/트라이의_노드_구현.cpp.i
+.PHONY : 26._트라이/트라이의_노드_구현.cpp.i
+
+26._트라이/트라이의_노드_구현.s: 26._트라이/트라이의_노드_구현.cpp.s
+
+.PHONY : 26._트라이/트라이의_노드_구현.s
+
+# target to generate assembly for a file
+26._트라이/트라이의_노드_구현.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/26._트라이/트라이의_노드_구현.cpp.s
+.PHONY : 26._트라이/트라이의_노드_구현.cpp.s
+
 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/DICTIONARY.obj: 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/DICTIONARY.cpp.obj
 
 .PHONY : 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/DICTIONARY.obj
@@ -1159,6 +1186,9 @@ help:
 	@echo ... 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.obj
 	@echo ... 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.i
 	@echo ... 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.s
+	@echo ... 26._트라이/트라이의_노드_구현.obj
+	@echo ... 26._트라이/트라이의_노드_구현.i
+	@echo ... 26._트라이/트라이의_노드_구현.s
 	@echo ... 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/DICTIONARY.obj
 	@echo ... 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/DICTIONARY.i
 	@echo ... 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/DICTIONARY.s
