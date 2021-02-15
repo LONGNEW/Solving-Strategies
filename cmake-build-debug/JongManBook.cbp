@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JongManBook"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JongManBook">
+				<Option output="C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/JongManBook.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 JongManBook"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JongManBook/fast">
+				<Option output="C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/JongManBook.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 JongManBook/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jdaeg/CLionProjects/JongManBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/삼분 검색/FOSSIL.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/삼분 검색/FOSSIL.h">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/삼분 검색/UVa_OJ_10385.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/삼분 검색/UVa_OJ_10385.h">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/삼분 검색/삼분 검색.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/이분법/LOAN.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/이분법/LOAN.h">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/이분법/RATIO.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/이분법/RATIO.h">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/이분법/ROOTS.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/이분법/ROOTS.h">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/소수 판별/PASS486.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/소수 판별/PASS486.h">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/소수 판별/소수 판별.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/소수 판별/소인수 분해.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/소수 판별/에라토스테네스의_체.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/소수 판별/체를 이용한 소인수 분해.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/유클리드 알고리즘/POTION.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/유클리드 알고리즘/POTION유클리드알고리즘 사용.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/14. 정수론/유클리드 알고리즘/유클리드 알고리즘.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/21. 트리의 구현과 순회/FORTRESS.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/21. 트리의 구현과 순회/TRAVERSAL.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/21. 트리의 구현과 순회/트리의 노드, 순회.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/22. 이진 검색 트리/INSERTION.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/22. 이진 검색 트리/NERD2.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/22. 이진 검색 트리/트립 구현/트립.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/23. 우선순위 큐와 힙/RUNNINGMEDIAN.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/23. 우선순위 큐와 힙/힙.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/24. 구간 트리/FAMILYTREE.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/24. 구간 트리/구간 트리의 구현.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/24. 구간 트리/출현 빈도를 계산.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/24. 구간 트리/펜윅트리/MEASURETIME.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/24. 구간 트리/펜윅트리/펜윅트리의 구현.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/25. 상호 배타적 집합(disjoint set)/EDITORWARS.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/25. 상호 배타적 집합(disjoint set)/disjoint set .cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/25. 상호 배타적 집합(disjoint set)/optimized disjoint set.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/28. 그래프의 깊이 우선 탐색/dfs, 위상정렬/DICTIONARY.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/28. 그래프의 깊이 우선 탐색/dfs, 위상정렬/그래프의 깊이 우선 탐색.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/28. 그래프의 깊이 우선 탐색/오일러 서킷/오일러 서킷 찾아내기.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/main.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
