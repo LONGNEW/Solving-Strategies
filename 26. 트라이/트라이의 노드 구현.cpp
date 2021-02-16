@@ -37,4 +37,13 @@ struct TrieNode{
             children[next]->insert(key + 1);
         }
     }
+    // 현재 노드에서 문자열 key와 대응되는 노드를 찾자.
+    TrieNode* find(const char* key){
+        if(*key == 0)
+            return this;
+        int next = toNumber(*key);
+        if(children[next] == NULL)
+            return NULL;
+        return children[next]->find(key + 1);
+    }
 };

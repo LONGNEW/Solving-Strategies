@@ -952,6 +952,33 @@ JongManBook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.cpp.s
 .PHONY : 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.cpp.s
 
+26._트라이/SOLONG.obj: 26._트라이/SOLONG.cpp.obj
+
+.PHONY : 26._트라이/SOLONG.obj
+
+# target to build an object file
+26._트라이/SOLONG.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/26._트라이/SOLONG.cpp.obj
+.PHONY : 26._트라이/SOLONG.cpp.obj
+
+26._트라이/SOLONG.i: 26._트라이/SOLONG.cpp.i
+
+.PHONY : 26._트라이/SOLONG.i
+
+# target to preprocess a source file
+26._트라이/SOLONG.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/26._트라이/SOLONG.cpp.i
+.PHONY : 26._트라이/SOLONG.cpp.i
+
+26._트라이/SOLONG.s: 26._트라이/SOLONG.cpp.s
+
+.PHONY : 26._트라이/SOLONG.s
+
+# target to generate assembly for a file
+26._트라이/SOLONG.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/26._트라이/SOLONG.cpp.s
+.PHONY : 26._트라이/SOLONG.cpp.s
+
 26._트라이/트라이의_노드_구현.obj: 26._트라이/트라이의_노드_구현.cpp.obj
 
 .PHONY : 26._트라이/트라이의_노드_구현.obj
@@ -1186,6 +1213,9 @@ help:
 	@echo ... 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.obj
 	@echo ... 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.i
 	@echo ... 25._상호_배타적_집합(disjoint_set)/optimized_disjoint_set.s
+	@echo ... 26._트라이/SOLONG.obj
+	@echo ... 26._트라이/SOLONG.i
+	@echo ... 26._트라이/SOLONG.s
 	@echo ... 26._트라이/트라이의_노드_구현.obj
 	@echo ... 26._트라이/트라이의_노드_구현.i
 	@echo ... 26._트라이/트라이의_노드_구현.s
