@@ -2,10 +2,33 @@
 // Created by NEW on 2021-02-07.
 //
 
+#include <iostream>
+#include <algorithm>
+#include "vector"
+using namespace std;
+
 // 알페ㅏ벳의 각 글자에 대한 인접 행렬 표현
 // 간선(i, j)는 i가 j보다 사전순으로 앞에 존재한다는 의미.
 vector<vector<int>> adj;
+
 vector<int> seen, order;
+void makeGraph(const vector<string>& words){
+    // 모든 알파벳이ㅔ 대한 인접 행렬을 만들었다.
+    adj = vector<vector<int>>(26, vector<int>(26, 0));
+    for (int j = 1; j < words.size(); ++j) {
+        int i = j - 1, len = min(words[i].size(), words[j].size());
+        // word[i]가 word[j] 앞에 오는 이유를 찾자.
+        for(int k = 0; k < len; ++k){
+            if(words[i][k] != words[j][k]){
+                int a = words[i][k] - 'a';
+                int b = words[j][k] - 'a';
+                adj[a][b] = 1;
+                break;
+            }
+        }
+    }
+}
+
 void dfs(int here){
     seen[here] = 1;
     //모든 알파벳에 대한 dfs를 수행.
@@ -17,6 +40,7 @@ void dfs(int here){
     // order 벡터에 집어넣고 마지막에 이 벡터를 뒤집어서 위상정렬 한다.
     order.push_back(here);
 }
+
 vector<int> topologicalSort(){
     // 노드의 수만큼.
     int m = adj.size();
@@ -38,20 +62,4 @@ vector<int> topologicalSort(){
                 // 사이클이 존재한다면 빈 벡터를 반환.
                 return vector<int>();
     return order;
-}
-void makeGraph(const vector<string>& words){
-    // 모든 알파벳이ㅔ 대한 인접 행렬을 만들었다.
-    adj = vector<vector<int>>(26, vector<int>(26, 0));
-    for (int j = 1; j < words.size(); ++j) {
-        int i = j - 1, len = min(words[i].size(), words[j].size());
-        // word[i]가 word[j] 앞에 오는 이유를 찾자.
-        for(int k = 0; k < len; ++k){
-            if(words[i][k] != words[j][k]){
-                int a = words[i][k] - 'a';
-                int b = words[j][k] - 'a';
-                adj[a][b] = 1;
-                break;
-            }
-        }
-    }
 }

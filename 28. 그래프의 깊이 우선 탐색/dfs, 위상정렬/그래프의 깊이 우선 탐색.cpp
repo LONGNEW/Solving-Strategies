@@ -1,6 +1,9 @@
 //
 // Created by NEW on 2021-02-06.
 //
+#include <iostream>
+#include "vector"
+using namespace std;
 
 // 인접 리스트 표현.
 vector<vector<int>> adj;
