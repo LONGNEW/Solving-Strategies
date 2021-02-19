@@ -142,6 +142,60 @@ JongManBook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/build
 .PHONY : JongManBook/fast
 
+10._탐욕법/MATCHORDER.obj: 10._탐욕법/MATCHORDER.cpp.obj
+
+.PHONY : 10._탐욕법/MATCHORDER.obj
+
+# target to build an object file
+10._탐욕법/MATCHORDER.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.obj
+.PHONY : 10._탐욕법/MATCHORDER.cpp.obj
+
+10._탐욕법/MATCHORDER.i: 10._탐욕법/MATCHORDER.cpp.i
+
+.PHONY : 10._탐욕법/MATCHORDER.i
+
+# target to preprocess a source file
+10._탐욕법/MATCHORDER.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.i
+.PHONY : 10._탐욕법/MATCHORDER.cpp.i
+
+10._탐욕법/MATCHORDER.s: 10._탐욕법/MATCHORDER.cpp.s
+
+.PHONY : 10._탐욕법/MATCHORDER.s
+
+# target to generate assembly for a file
+10._탐욕법/MATCHORDER.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.s
+.PHONY : 10._탐욕법/MATCHORDER.cpp.s
+
+10._탐욕법/회의실_예약_문제.obj: 10._탐욕법/회의실_예약_문제.cpp.obj
+
+.PHONY : 10._탐욕법/회의실_예약_문제.obj
+
+# target to build an object file
+10._탐욕법/회의실_예약_문제.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/회의실_예약_문제.cpp.obj
+.PHONY : 10._탐욕법/회의실_예약_문제.cpp.obj
+
+10._탐욕법/회의실_예약_문제.i: 10._탐욕법/회의실_예약_문제.cpp.i
+
+.PHONY : 10._탐욕법/회의실_예약_문제.i
+
+# target to preprocess a source file
+10._탐욕법/회의실_예약_문제.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/회의실_예약_문제.cpp.i
+.PHONY : 10._탐욕법/회의실_예약_문제.cpp.i
+
+10._탐욕법/회의실_예약_문제.s: 10._탐욕법/회의실_예약_문제.cpp.s
+
+.PHONY : 10._탐욕법/회의실_예약_문제.s
+
+# target to generate assembly for a file
+10._탐욕법/회의실_예약_문제.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/회의실_예약_문제.cpp.s
+.PHONY : 10._탐욕법/회의실_예약_문제.cpp.s
+
 13._수치해석/삼분_검색/FOSSIL.obj: 13._수치해석/삼분_검색/FOSSIL.cpp.obj
 
 .PHONY : 13._수치해석/삼분_검색/FOSSIL.obj
@@ -1123,6 +1177,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... JongManBook
+	@echo ... 10._탐욕법/MATCHORDER.obj
+	@echo ... 10._탐욕법/MATCHORDER.i
+	@echo ... 10._탐욕법/MATCHORDER.s
+	@echo ... 10._탐욕법/회의실_예약_문제.obj
+	@echo ... 10._탐욕법/회의실_예약_문제.i
+	@echo ... 10._탐욕법/회의실_예약_문제.s
 	@echo ... 13._수치해석/삼분_검색/FOSSIL.obj
 	@echo ... 13._수치해석/삼분_검색/FOSSIL.i
 	@echo ... 13._수치해석/삼분_검색/FOSSIL.s

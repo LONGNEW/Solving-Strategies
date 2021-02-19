@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/10. 탐욕법/MATCHORDER.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/10. 탐욕법/회의실 예약 문제.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
 		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/13. 수치해석/삼분 검색/FOSSIL.cpp">
 			<Option target="JongManBook"/>
 		</Unit>
