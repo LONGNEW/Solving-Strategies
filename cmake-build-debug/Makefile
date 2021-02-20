@@ -142,6 +142,33 @@ JongManBook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/build
 .PHONY : JongManBook/fast
 
+10._탐욕법/LUNCHBOX.obj: 10._탐욕법/LUNCHBOX.cpp.obj
+
+.PHONY : 10._탐욕법/LUNCHBOX.obj
+
+# target to build an object file
+10._탐욕법/LUNCHBOX.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.obj
+.PHONY : 10._탐욕법/LUNCHBOX.cpp.obj
+
+10._탐욕법/LUNCHBOX.i: 10._탐욕법/LUNCHBOX.cpp.i
+
+.PHONY : 10._탐욕법/LUNCHBOX.i
+
+# target to preprocess a source file
+10._탐욕법/LUNCHBOX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.i
+.PHONY : 10._탐욕법/LUNCHBOX.cpp.i
+
+10._탐욕법/LUNCHBOX.s: 10._탐욕법/LUNCHBOX.cpp.s
+
+.PHONY : 10._탐욕법/LUNCHBOX.s
+
+# target to generate assembly for a file
+10._탐욕법/LUNCHBOX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.s
+.PHONY : 10._탐욕법/LUNCHBOX.cpp.s
+
 10._탐욕법/MATCHORDER.obj: 10._탐욕법/MATCHORDER.cpp.obj
 
 .PHONY : 10._탐욕법/MATCHORDER.obj
@@ -168,6 +195,33 @@ JongManBook/fast:
 10._탐욕법/MATCHORDER.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.s
 .PHONY : 10._탐욕법/MATCHORDER.cpp.s
+
+10._탐욕법/STRJOIN.obj: 10._탐욕법/STRJOIN.cpp.obj
+
+.PHONY : 10._탐욕법/STRJOIN.obj
+
+# target to build an object file
+10._탐욕법/STRJOIN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.obj
+.PHONY : 10._탐욕법/STRJOIN.cpp.obj
+
+10._탐욕법/STRJOIN.i: 10._탐욕법/STRJOIN.cpp.i
+
+.PHONY : 10._탐욕법/STRJOIN.i
+
+# target to preprocess a source file
+10._탐욕법/STRJOIN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.i
+.PHONY : 10._탐욕법/STRJOIN.cpp.i
+
+10._탐욕법/STRJOIN.s: 10._탐욕법/STRJOIN.cpp.s
+
+.PHONY : 10._탐욕법/STRJOIN.s
+
+# target to generate assembly for a file
+10._탐욕법/STRJOIN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.s
+.PHONY : 10._탐욕법/STRJOIN.cpp.s
 
 10._탐욕법/회의실_예약_문제.obj: 10._탐욕법/회의실_예약_문제.cpp.obj
 
@@ -1177,9 +1231,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... JongManBook
+	@echo ... 10._탐욕법/LUNCHBOX.obj
+	@echo ... 10._탐욕법/LUNCHBOX.i
+	@echo ... 10._탐욕법/LUNCHBOX.s
 	@echo ... 10._탐욕법/MATCHORDER.obj
 	@echo ... 10._탐욕법/MATCHORDER.i
 	@echo ... 10._탐욕법/MATCHORDER.s
+	@echo ... 10._탐욕법/STRJOIN.obj
+	@echo ... 10._탐욕법/STRJOIN.i
+	@echo ... 10._탐욕법/STRJOIN.s
 	@echo ... 10._탐욕법/회의실_예약_문제.obj
 	@echo ... 10._탐욕법/회의실_예약_문제.i
 	@echo ... 10._탐욕법/회의실_예약_문제.s

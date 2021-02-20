@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.obj"
   "CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.obj"
+  "CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.obj"
   "CMakeFiles/JongManBook.dir/10._탐욕법/회의실_예약_문제.cpp.obj"
   "CMakeFiles/JongManBook.dir/13._수치해석/삼분_검색/FOSSIL.cpp.obj"
   "CMakeFiles/JongManBook.dir/13._수치해석/삼분_검색/UVa_OJ_10385.cpp.obj"

@@ -570,6 +570,32 @@ CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jdaeg\CLionProjects\JongManBook\10. 탐욕법\MATCHORDER.cpp" -o CMakeFiles\JongManBook.dir\10._탐욕법\MATCHORDER.cpp.s
 
+CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.obj: CMakeFiles/JongManBook.dir/flags.make
+CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.obj: ../10.\ 탐욕법/LUNCHBOX.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jdaeg\CLionProjects\JongManBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\JongManBook.dir\10._탐욕법\LUNCHBOX.cpp.obj -c "C:\Users\jdaeg\CLionProjects\JongManBook\10. 탐욕법\LUNCHBOX.cpp"
+
+CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jdaeg\CLionProjects\JongManBook\10. 탐욕법\LUNCHBOX.cpp" > CMakeFiles\JongManBook.dir\10._탐욕법\LUNCHBOX.cpp.i
+
+CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jdaeg\CLionProjects\JongManBook\10. 탐욕법\LUNCHBOX.cpp" -o CMakeFiles\JongManBook.dir\10._탐욕법\LUNCHBOX.cpp.s
+
+CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.obj: CMakeFiles/JongManBook.dir/flags.make
+CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.obj: ../10.\ 탐욕법/STRJOIN.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jdaeg\CLionProjects\JongManBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\JongManBook.dir\10._탐욕법\STRJOIN.cpp.obj -c "C:\Users\jdaeg\CLionProjects\JongManBook\10. 탐욕법\STRJOIN.cpp"
+
+CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jdaeg\CLionProjects\JongManBook\10. 탐욕법\STRJOIN.cpp" > CMakeFiles\JongManBook.dir\10._탐욕법\STRJOIN.cpp.i
+
+CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jdaeg\CLionProjects\JongManBook\10. 탐욕법\STRJOIN.cpp" -o CMakeFiles\JongManBook.dir\10._탐욕법\STRJOIN.cpp.s
+
 # Object files for target JongManBook
 JongManBook_OBJECTS = \
 "CMakeFiles/JongManBook.dir/main.cpp.obj" \
@@ -609,7 +635,9 @@ JongManBook_OBJECTS = \
 "CMakeFiles/JongManBook.dir/26._트라이/트라이의_노드_구현.cpp.obj" \
 "CMakeFiles/JongManBook.dir/26._트라이/SOLONG.cpp.obj" \
 "CMakeFiles/JongManBook.dir/10._탐욕법/회의실_예약_문제.cpp.obj" \
-"CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.obj"
+"CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.obj" \
+"CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.obj" \
+"CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.obj"
 
 # External object files for target JongManBook
 JongManBook_EXTERNAL_OBJECTS =
@@ -652,11 +680,13 @@ JongManBook.exe: CMakeFiles/JongManBook.dir/26._트라이/트라이의_노드_�
 JongManBook.exe: CMakeFiles/JongManBook.dir/26._트라이/SOLONG.cpp.obj
 JongManBook.exe: CMakeFiles/JongManBook.dir/10._탐욕법/회의실_예약_문제.cpp.obj
 JongManBook.exe: CMakeFiles/JongManBook.dir/10._탐욕법/MATCHORDER.cpp.obj
+JongManBook.exe: CMakeFiles/JongManBook.dir/10._탐욕법/LUNCHBOX.cpp.obj
+JongManBook.exe: CMakeFiles/JongManBook.dir/10._탐욕법/STRJOIN.cpp.obj
 JongManBook.exe: CMakeFiles/JongManBook.dir/build.make
 JongManBook.exe: CMakeFiles/JongManBook.dir/linklibs.rsp
 JongManBook.exe: CMakeFiles/JongManBook.dir/objects1.rsp
 JongManBook.exe: CMakeFiles/JongManBook.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jdaeg\CLionProjects\JongManBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable JongManBook.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jdaeg\CLionProjects\JongManBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX executable JongManBook.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\JongManBook.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
