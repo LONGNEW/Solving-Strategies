@@ -1168,6 +1168,33 @@ JongManBook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/28._그래프의_깊이_우선_탐색/dfs,_위상정렬/그래프의_깊이_우선_탐색.cpp.s
 .PHONY : 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/그래프의_깊이_우선_탐색.cpp.s
 
+28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.obj: 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.obj
+
+.PHONY : 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.obj
+
+# target to build an object file
+28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.obj
+.PHONY : 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.obj
+
+28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.i: 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.i
+
+.PHONY : 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.i
+
+# target to preprocess a source file
+28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.i
+.PHONY : 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.i
+
+28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.s: 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.s
+
+.PHONY : 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.s
+
+# target to generate assembly for a file
+28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\JongManBook.dir\build.make CMakeFiles/JongManBook.dir/28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.s
+.PHONY : 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.cpp.s
+
 28._그래프의_깊이_우선_탐색/오일러_서킷/오일러_서킷_찾아내기.obj: 28._그래프의_깊이_우선_탐색/오일러_서킷/오일러_서킷_찾아내기.cpp.obj
 
 .PHONY : 28._그래프의_깊이_우선_탐색/오일러_서킷/오일러_서킷_찾아내기.obj
@@ -1345,6 +1372,9 @@ help:
 	@echo ... 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/그래프의_깊이_우선_탐색.obj
 	@echo ... 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/그래프의_깊이_우선_탐색.i
 	@echo ... 28._그래프의_깊이_우선_탐색/dfs,_위상정렬/그래프의_깊이_우선_탐색.s
+	@echo ... 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.obj
+	@echo ... 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.i
+	@echo ... 28._그래프의_깊이_우선_탐색/오일러_서킷/WORDCHAIN.s
 	@echo ... 28._그래프의_깊이_우선_탐색/오일러_서킷/오일러_서킷_찾아내기.obj
 	@echo ... 28._그래프의_깊이_우선_탐색/오일러_서킷/오일러_서킷_찾아내기.i
 	@echo ... 28._그래프의_깊이_우선_탐색/오일러_서킷/오일러_서킷_찾아내기.s

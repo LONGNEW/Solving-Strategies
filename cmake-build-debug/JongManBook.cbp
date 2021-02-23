@@ -212,6 +212,9 @@
 		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/28. 그래프의 깊이 우선 탐색/dfs, 위상정렬/그래프의 깊이 우선 탐색.cpp">
 			<Option target="JongManBook"/>
 		</Unit>
+		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/28. 그래프의 깊이 우선 탐색/오일러 서킷/WORDCHAIN.cpp">
+			<Option target="JongManBook"/>
+		</Unit>
 		<Unit filename="C:/Users/jdaeg/CLionProjects/JongManBook/28. 그래프의 깊이 우선 탐색/오일러 서킷/오일러 서킷 찾아내기.cpp">
 			<Option target="JongManBook"/>
 		</Unit>
